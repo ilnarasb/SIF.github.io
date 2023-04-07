@@ -1,0 +1,93 @@
+@import url('./main.css');
+
+.content-students {
+    padding-left: calc(50% - 1202px / 2);
+    padding-right: calc(50% - 1202px / 2);
+}
+
+.subtitle__line {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 31px;
+    line-height: 36px;
+    align-items: center;
+    color: #000000;
+    margin-top: 37px;
+}
+
+.photo {
+    width: 200px;
+    height: 270px;
+}
+.students {
+    margin-top: 24px;
+    gap: 50px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.student {
+    width: 200px;
+    position: relative;
+}
+
+.student__name {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    color: #000000;
+    text-align: center;
+    margin-top: 8px;
+    text-decoration: none;
+}
+
+.new::after {
+    content: 'НОВИЧОК';
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+    position: absolute;
+    top: -12px;
+    right: -13px;
+    background: #3AA828;
+    border-radius: 20px;
+    padding: 1px 2px 1px 5px;
+    text-transform: uppercase;
+}
+
+@media (max-width: 1024px) {
+    
+    .content-students {
+        padding-left: calc(50% - 980px / 2);
+        padding-right: calc(50% - 980px / 2);
+    }
+}
+
+@media (max-width: 768px) {
+    
+    .content-students {
+        padding-left: calc(50% - 736px / 2);
+        padding-right: calc(50% - 736px / 2);
+    }
+}
+
+@media (max-width: 425px) {
+    .content-students {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+    .subtitle__line {
+        font-size: 20px;
+    }
+
+    .students {
+        display: flex;
+        justify-content: center;
+    }
+}

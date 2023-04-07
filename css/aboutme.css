@@ -1,0 +1,70 @@
+@import url('./main.css');
+
+
+.content-aboutme {
+    padding-left: calc(50% - 1202px / 2);
+    padding-right: calc(50% - 1202px / 2);
+} 
+
+.aboutme {
+    font-family: 'Roboto';
+    font-style: normal;
+    color: #000000;
+    margin-top: 37px;
+}
+
+.myphoto {
+    width: auto;
+    height: 500px;
+    margin-left: 40px; 
+}
+
+.name {
+    margin-left: 40px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 31px;
+    line-height: 36px;
+    align-items: center;
+    color: #000000;
+    margin-top: 37px;  
+}
+
+.text  {
+    margin-left: 40px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 25px;
+    line-height: 36px;
+    align-items: center;
+    color: #000000;
+    margin-top: 37px;  
+
+}
+
+.info__tg{
+    margin-left: 40px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 50;
+    font-size: 25px;
+    line-height: 36px;
+    align-items: center;
+    color: #000000;
+    margin-top: 37px;
+
+}
+
+.about__text {
+    margin-left: 40px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 31px;
+    line-height: 36px;
+    align-items: center;
+    color: #000000;
+    margin-top: 37px;
+}

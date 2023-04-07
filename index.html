@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Главная</title>
+    <link rel="shortcut icon" href="./img/favicon.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="./css/bos.css">
+</head>
+
+<body class="root">
+    <div class="all">
+        <header class="header">
+            <a class="logo" href="./index.html">
+                <img src="./img/logo.svg" alt="Логотип сайта">
+            </a>
+            <nav>
+                <ul class="menu">
+                    <li class="menu__list">
+                        <a class="menu__link menu__link__active " href="#">Главная</a>
+                    </li>
+                    <li class="men__list">
+                        <a class="menu__link" href="./students.html">Студенты</a>
+                    </li>
+                    <li class="menu__list">
+                        <a class="menu__link" href="./about.html">О курсе</a>
+                    </li>
+                    <li class="menu__list">
+                        <a class="menu__link" href="./contacts.html">Контакты</a>
+                    </li>
+                    <li class="menu__list">
+                        <a class="menu__link" href="./aboutme.html">О себе</a>
+                    </li>
+                </ul>
+            </nav>
+            <button href="#" class="button">Войти</button>
+        </header>
+        <main class="content">
+           <h1 class="title">Добро пожаловать на курс “Создание веб-сайтов (HTML, CSS)”!</h1>      
+           <img src="./img/class.jpg" alt="Главное фото"> 
+           <div class="content__info">
+                <div class="content__section">
+                    <div class="content__article"> 
+                        <p class="subtitle">Для кого этот курс</p>
+                        <p class="about__text">
+                            Этот курс рассчитан на новичков, которые только начинают знакомство с веб-разработкой. В
+                            начале
+                            курса вы узнаете о том, как устроен Интернет и веб-сайты.
+                            Для обучения необходимо только владеть компьютерной грамотностью (пользоваться браузером,
+                            создавать папки и файлы, устанавливать программы).
+                        </p>
+                    </div>
+                    <div class="content__article">
+                        <p class="subtitle">Чему вы научитесь</p>
+                        <p class="about__text">
+                            На этом курсе вы узнаете, как устроены веб-сайты и как создавать их с нуля. Изучите основы языков <span class="fond__bold">HTML, CSS</span> и немного <span class="fond__bold">JavaScript</span>. Мы вместе сверстаем сайт нашей группы по этому макету. А затем вы <span class="fond">сами </span> сверстаете свои личные странички в качестве домашнего задания и мы выложим все это на сервер.
+                        </p>
+                    </div>
+                </div>
+                <h2 class="heading">“Учимся вместе!”</h2>
+            </div>
+        </main >
+    </div>
+    <footer class="footer">
+        <p>2023 &copy; 
+            <a class="footer__text" href="#">учебный центр</a>
+        </p>
+    </footer>
+    <div class="popup ">
+                <div class="popup__content popup_opened">
+                    <img src="./img/close.png" alt="Закрытие" class="popup__close">
+                    <h3 class="popup__title">Войти на сайт</h3>
+                    <form action="#" method="post">
+                        <input type="text" name="username" id="username" placeholder="Логин" class="login" required>
+                        <input type="text" name="password" id="password" placeholder="Пароль" class="login__input" required>
+                        <button class="button button__popup">Войти</button>
+                    </form>
+                </div>
+            </div>
+    <script src="./popup.js"></script>
+</body>
+
+</html>

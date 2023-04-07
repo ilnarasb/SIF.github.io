@@ -1,0 +1,95 @@
+@import url('./main.css');
+
+.content__contact {
+    padding-left: calc(50% - 1268px / 2);
+    padding-right: calc(50% - 1268px / 2);
+    flex-grow: 1;
+}
+.subject__contacts {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 35px;
+    color: #000000;
+    margin-top: 33px;
+    padding-left: 200px;
+}
+
+.map {
+    width: 1268px;
+    height: 370px;
+    margin-top: 25px;
+}
+
+.subtitle__contacts {
+    padding-left: 200px;
+    color: #000;
+}
+
+.our-contacts {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 29px;
+    margin-top: 15px;
+}
+
+.address {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    margin-top: 15px;
+}
+
+.trade {
+    margin-top: 15px;
+}
+.tel {
+    color: #000;
+}
+
+@media (max-width: 1024px) {
+    .content__contact {
+        padding-left: calc(50% - 980px / 2);
+        padding-right: calc(50% - 980px / 2);
+    }
+
+    .map {
+        width: 980px;
+    }
+}
+
+@media (max-width: 768px) {
+    
+    .content__contact {
+        padding-left: calc(50% - 736px / 2);
+        padding-right: calc(50% - 736px / 2);
+    }
+    .map {
+        width: 706px;
+    }
+}
+
+@media (max-width: 425px) {
+    .content__contact {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+    .map {
+        width: 310px;
+    }
+
+    .subject__contacts {
+        padding-left: 5px;
+    }
+    
+    .subtitle__contacts {
+        padding-left: 5px;
+    }
+
+}

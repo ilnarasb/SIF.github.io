@@ -1,0 +1,61 @@
+@import url('./main.css');
+
+.content-about {
+    padding-left: calc(50% - 820px / 2);
+    padding-right: calc(50% - 820px / 2);
+}
+
+.subject__about {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 35px;
+    color: #000000;
+    margin-top: 33px;
+}
+
+.subtitle__about {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 29px;
+    color: #000000;
+    margin-top: 25px;
+}
+
+.icon {
+    width: 820px;
+    height: 550px;
+    margin-top: 15px;
+}
+
+@media (max-width: 1024px) {
+    .content-about {
+        padding-left: calc(50% - 980px / 2);
+        padding-right: calc(50% - 980px / 2);
+    }  
+}
+
+@media (max-width: 768px) {
+    
+    .content-about {
+        padding-left: calc(50% - 736px / 2);
+        padding-right: calc(50% - 736px / 2);
+    }
+
+    .icon {
+        width: 700px;
+    }
+}
+
+@media (max-width: 425px) {
+    .content-about {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+    .icon {
+        width: 360px;
+    }
+}
